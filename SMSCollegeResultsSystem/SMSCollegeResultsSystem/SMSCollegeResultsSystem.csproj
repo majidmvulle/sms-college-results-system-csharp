@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C356F14E-9D93-420C-89A9-8AB88AA0FAD5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SMSCollegeResultsSystem</RootNamespace>
+    <AssemblyName>SMSCollegeSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="%40Class\clsDepartment.cs" />
+    <Compile Include="%40Class\clsLecturer.cs" />
+    <Compile Include="%40Class\clsModule.cs" />
+    <Compile Include="%40Class\clsResult.cs" />
+    <Compile Include="%40Class\clsResultsCalc.cs" />
+    <Compile Include="%40Class\clsSchool.cs" />
+    <Compile Include="%40Class\clsStudent.cs" />
+    <Compile Include="%40Class\clsStudMod.cs" />
+    <Compile Include="%40Class\IPerson.cs" />
+    <Compile Include="%40Forms\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmAddDept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmAddDept.Designer.cs">
+      <DependentUpon>frmAddDept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmAddLecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmAddLecturer.Designer.cs">
+      <DependentUpon>frmAddLecturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmAddModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmAddModule.Designer.cs">
+      <DependentUpon>frmAddModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmAddModulesOfferedNext.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmAddModulesOfferedNext.Designer.cs">
+      <DependentUpon>frmAddModulesOfferedNext.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmAddResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmAddResults.Designer.cs">
+      <DependentUpon>frmAddResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmAddSchool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmAddSchool.Designer.cs">
+      <DependentUpon>frmAddSchool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmAddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmAddStudent.Designer.cs">
+      <DependentUpon>frmAddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmDeleteDept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmDeleteDept.Designer.cs">
+      <DependentUpon>frmDeleteDept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmDeleteLecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmDeleteLecturer.Designer.cs">
+      <DependentUpon>frmDeleteLecturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmDeleteModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmDeleteModule.Designer.cs">
+      <DependentUpon>frmDeleteModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmDeleteResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmDeleteResults.Designer.cs">
+      <DependentUpon>frmDeleteResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmDeleteSchool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmDeleteSchool.Designer.cs">
+      <DependentUpon>frmDeleteSchool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmDeleteStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmDeleteStudent.Designer.cs">
+      <DependentUpon>frmDeleteStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmDeRegStudMod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmDeRegStudMod.Designer.cs">
+      <DependentUpon>frmDeRegStudMod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmRegStudMod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmRegStudMod.Designer.cs">
+      <DependentUpon>frmRegStudMod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmRemoveAllModulesOffered.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmRemoveAllModulesOffered.Designer.cs">
+      <DependentUpon>frmRemoveAllModulesOffered.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmRemoveModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmRemoveModule.Designer.cs">
+      <DependentUpon>frmRemoveModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmResultsCalc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmResultsCalc.Designer.cs">
+      <DependentUpon>frmResultsCalc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmViewAllLect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmViewAllLect.Designer.cs">
+      <DependentUpon>frmViewAllLect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmViewAllModules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmViewAllModules.Designer.cs">
+      <DependentUpon>frmViewAllModules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmViewAllPrereg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmViewAllPrereg.Designer.cs">
+      <DependentUpon>frmViewAllPrereg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmViewAllResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmViewAllResults.Designer.cs">
+      <DependentUpon>frmViewAllResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmViewAllStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmViewAllStudents.Designer.cs">
+      <DependentUpon>frmViewAllStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmViewAllStudModReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmViewAllStudModReg.Designer.cs">
+      <DependentUpon>frmViewAllStudModReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmViewDept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmViewDept.Designer.cs">
+      <DependentUpon>frmViewDept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmViewLecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmViewLecturer.Designer.cs">
+      <DependentUpon>frmViewLecturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmViewModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmViewModule.Designer.cs">
+      <DependentUpon>frmViewModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmViewResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmViewResults.Designer.cs">
+      <DependentUpon>frmViewResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmViewSchool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmViewSchool.Designer.cs">
+      <DependentUpon>frmViewSchool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmViewStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmViewStudent.Designer.cs">
+      <DependentUpon>frmViewStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmWelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmWelcome.Designer.cs">
+      <DependentUpon>frmWelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="%40Forms\frmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="%40Forms\frmMainMenu.Designer.cs">
+      <DependentUpon>frmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="%40Forms\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmAddDept.resx">
+      <DependentUpon>frmAddDept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmAddLecturer.resx">
+      <DependentUpon>frmAddLecturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmAddModule.resx">
+      <DependentUpon>frmAddModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmAddModulesOfferedNext.resx">
+      <DependentUpon>frmAddModulesOfferedNext.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmAddResults.resx">
+      <DependentUpon>frmAddResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmAddSchool.resx">
+      <DependentUpon>frmAddSchool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmAddStudent.resx">
+      <DependentUpon>frmAddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmDeleteDept.resx">
+      <DependentUpon>frmDeleteDept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmDeleteModule.resx">
+      <DependentUpon>frmDeleteModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmDeleteResults.resx">
+      <DependentUpon>frmDeleteResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmDeleteSchool.resx">
+      <DependentUpon>frmDeleteSchool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmDeleteLecturer.resx">
+      <DependentUpon>frmDeleteLecturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmDeleteStudent.resx">
+      <DependentUpon>frmDeleteStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmDeRegStudMod.resx">
+      <DependentUpon>frmDeRegStudMod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmMainMenu.resx">
+      <DependentUpon>frmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmRegStudMod.resx">
+      <DependentUpon>frmRegStudMod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmRemoveAllModulesOffered.resx">
+      <DependentUpon>frmRemoveAllModulesOffered.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmRemoveModule.resx">
+      <DependentUpon>frmRemoveModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmResultsCalc.resx">
+      <DependentUpon>frmResultsCalc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmViewAllLect.resx">
+      <DependentUpon>frmViewAllLect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmViewAllModules.resx">
+      <DependentUpon>frmViewAllModules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmViewAllPrereg.resx">
+      <DependentUpon>frmViewAllPrereg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmViewAllResults.resx">
+      <DependentUpon>frmViewAllResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmViewAllStudents.resx">
+      <DependentUpon>frmViewAllStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmViewAllStudModReg.resx">
+      <DependentUpon>frmViewAllStudModReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmViewDept.resx">
+      <DependentUpon>frmViewDept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmViewModule.resx">
+      <DependentUpon>frmViewModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmViewResults.resx">
+      <DependentUpon>frmViewResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmViewSchool.resx">
+      <DependentUpon>frmViewSchool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmViewLecturer.resx">
+      <DependentUpon>frmViewLecturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmViewStudent.resx">
+      <DependentUpon>frmViewStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="%40Forms\frmWelcome.resx">
+      <DependentUpon>frmWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\069302-black-white-pearl-icon-alphanumeric-plus-sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sms-pending.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\projBanner6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\125471-matte-white-square-icon-people-things-hat1-graduation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viewAll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

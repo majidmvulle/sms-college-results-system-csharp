@@ -1,0 +1,15 @@
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\bin\Release\SCRS_SMS.exe.config
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\bin\Release\SCRS_SMS.exe
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\bin\Release\SCRS_SMS.pdb
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\bin\Release\GSMCommServer.dll
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\bin\Release\GSMCommShared.dll
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\bin\Release\GSMCommunication.dll
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\bin\Release\PDUConverter.dll
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Release\SCRS_SMS.frmConValue.resources
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Release\SCRS_SMS.frmMain.resources
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Release\SCRS_SMS.Properties.Resources.resources
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Release\SCRS_SMS.exe
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Release\SCRS_SMS.pdb

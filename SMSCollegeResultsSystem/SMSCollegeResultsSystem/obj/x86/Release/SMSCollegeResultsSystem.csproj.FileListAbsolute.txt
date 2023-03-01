@@ -1,0 +1,45 @@
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\bin\Release\SMSCollegeSystem.exe.config
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\bin\Release\SMSCollegeSystem.exe
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\bin\Release\SMSCollegeSystem.pdb
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmAbout.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmAddDept.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmAddLecturer.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmAddModule.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmAddModulesOfferedNext.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmAddResults.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmAddSchool.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmAddStudent.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmDeleteDept.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmDeleteModule.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmDeleteResults.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmDeleteSchool.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmDeleteLecturer.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmDeleteStudent.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmDeRegStudMod.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmMainMenu.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmRegStudMod.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmRemoveAllModulesOffered.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmRemoveModule.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmResultsCalc.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmViewAllLect.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmViewAllModules.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmViewAllPrereg.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmViewAllResults.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmViewAllStudents.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmViewAllStudModReg.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmViewDept.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmViewModule.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmViewResults.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmViewSchool.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmViewLecturer.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmViewStudent.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem._Forms.frmWelcome.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeResultsSystem.Properties.Resources.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeSystem.exe
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeSystem.pdb
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMS COLLEGE RESULTS SYSTEM\SMSCollegeResultsSystem\SMSCollegeResultsSystem\bin\Release\SMSCollegeSystem.exe.config
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMS COLLEGE RESULTS SYSTEM\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeSystem.exe
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SMS COLLEGE RESULTS SYSTEM\SMSCollegeResultsSystem\SMSCollegeResultsSystem\obj\x86\Release\SMSCollegeSystem.pdb

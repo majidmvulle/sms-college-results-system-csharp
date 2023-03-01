@@ -1,0 +1,46 @@
+This is the README file for "SMS College Results System".
+
+The system has 2 applications (SMSCollegeResultsSystem.exe - which is for data entry 
+AND SCRS_SMS.exe - which is for SMS functionality).
+
+SYSTEM REQUIREMENTS:
+
+1- SMSCollegeResultsSystem.exe
+
+	- Windows PC (XP or higher).
+	- Minimum Specs: 1GHZ CPU, 512MB RAM.
+	- Network Connection capability.
+	- .NET Framework version 4.0 or higher (available from Microsoft Corp.®).
+	- MySQL Database Server (5.0 or higher) (Remote or Local).
+	- MySQL Library (Connector/Net) available freely at: http://dev.mysql.com/downloads/connector/net/
+
+For creation of Database Tables to be compatible with the system, please refer to the project documentation which 
+contains: ERD, data dictionary and other details.
+
+Note: Edit "App.Config" file to change Database permissions accordingly.
+
+2- SCRS_SMS.exe
+
+	- Windows PC (XP or higher).
+	- Minimum Specs: 1GHZ CPU, 512MB RAM.
+	- Network Connection capability. 
+	- .NET Framework version 4.0 or higher (available from Microsoft Corp.®).
+	- MySQL Database Server (5.0 or higher) (Remote or Local).
+	- MySQL Library (Connector/Net) available freely at: http://dev.mysql.com/downloads/connector/net/
+
+	For SMS functionality:
+	- GSM/GPRS modem or mobile phone that supports AT Commands.
+	- GSM Communication Library (GsmComm) for .NET (available freely at: http://www.scampers.org/steve/sms/libraries.htm), 
+	  Required files are: "GSMCommServer.dll", "GSMCommShared.dll", "GSMCommunication.dll", and "PDUConverter.dll". These 
+	  are to be included in the same folder as the "SCRS_SMS.exe" application.
+
+
+CREDITS:
+
+All thanks go to "Stefan Mayr (http://www.scampers.org/steve/sms/index.htm)" for making GsmComm Library open-source.
+
+LICENCE:
+
+Copyright © 2011 Majid Ramadhan Mvulle (majidmvulle@hotmail.com). All Rights Reserved.
+This software and all its parts may only be used for study purposes. It is NOT to be sold or deployed commercially.
+This licence is legally abinding.

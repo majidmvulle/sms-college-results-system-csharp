@@ -1,0 +1,24 @@
+c:\Users\jay\Documents\Visual Studio 2010\Projects\SCRS_SMS\SCRS_SMS\bin\Debug\SCRS_SMS.exe
+c:\Users\jay\Documents\Visual Studio 2010\Projects\SCRS_SMS\SCRS_SMS\bin\Debug\SCRS_SMS.pdb
+c:\Users\jay\Documents\Visual Studio 2010\Projects\SCRS_SMS\SCRS_SMS\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\Users\jay\Documents\Visual Studio 2010\Projects\SCRS_SMS\SCRS_SMS\obj\x86\Debug\SCRS_SMS.frmConValue.resources
+c:\Users\jay\Documents\Visual Studio 2010\Projects\SCRS_SMS\SCRS_SMS\obj\x86\Debug\SCRS_SMS.Properties.Resources.resources
+c:\Users\jay\Documents\Visual Studio 2010\Projects\SCRS_SMS\SCRS_SMS\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\Users\jay\Documents\Visual Studio 2010\Projects\SCRS_SMS\SCRS_SMS\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\Users\jay\Documents\Visual Studio 2010\Projects\SCRS_SMS\SCRS_SMS\obj\x86\Debug\SCRS_SMS.exe
+c:\Users\jay\Documents\Visual Studio 2010\Projects\SCRS_SMS\SCRS_SMS\obj\x86\Debug\SCRS_SMS.pdb
+c:\Users\jay\Documents\Visual Studio 2010\Projects\SCRS_SMS\SCRS_SMS\obj\x86\Debug\SCRS_SMS.frmMain.resources
+C:\Users\jay\Documents\Visual Studio 2010\Projects\SCRS_SMS\SCRS_SMS\bin\Debug\SCRS_SMS.exe.config
+C:\Users\jay\documents\visual studio 2010\Projects\SCRS_SMS\SCRS_SMS\obj\x86\Debug\SCRS_SMS.frmTest2.resources
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\bin\Debug\SCRS_SMS.exe.config
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Debug\SCRS_SMS.exe
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Debug\SCRS_SMS.pdb
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\bin\Debug\SCRS_SMS.exe
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\bin\Debug\SCRS_SMS.pdb
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Debug\SCRS_SMS.frmConValue.resources
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Debug\SCRS_SMS.frmMain.resources
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Debug\SCRS_SMS.Properties.Resources.resources
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\jay\Desktop\SCRS_SMS\SCRS_SMS\obj\x86\Debug\SCRS_SMS.Form1.resources
